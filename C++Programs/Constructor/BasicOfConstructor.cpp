@@ -24,7 +24,7 @@ class complex
      {
          a=c.a;
          b=c.b;
-         cout<<"\n"<<a<<"  "<<b;
+         cout<<"\n"<<a<<"  "<<b<<"\n";
      }
 
 };
