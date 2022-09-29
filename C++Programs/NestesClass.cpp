@@ -58,8 +58,8 @@ int main()
 {
     student s1;
     s1.set_rollno(23);
-    s1.set_name("Teena");
-    s1.set_address(123,"ramlilal","paota","rajasthan");
+    s1.set_name("\nName=Teena\n");
+    s1.set_address( 123 ,"\nramlilal","paota\n","rajasthan \n");
    s1.show_student();
     return 0;
 
