@@ -6,7 +6,7 @@ private:
 int b=19;
 public:
 void show(){
-    a=3;
+   int a=3;
     printf("%d",a);
 }
 };
