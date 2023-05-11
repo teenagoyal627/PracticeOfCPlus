@@ -6,11 +6,8 @@ class complex
     int a;
     int b;
     public:
-   /* complex()
-    {
-        cout<<"Hello Teena"<<"\n"<<"\n";
-    }*/
-    complex(int x,int y)
+  
+    complex(int x,int y)//parameterized constoructor
     {
         a=x;
         b=y;  
@@ -20,7 +17,7 @@ class complex
          a=k;
          cout<<"\n"<<a;
      }
-     complex(complex &c)
+     complex(complex &c)//copy constructor
      {
          a=c.a;
          b=c.b;
@@ -35,3 +32,4 @@ int main()
     complex c4(c2);
     
 }
+
